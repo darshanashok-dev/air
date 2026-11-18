@@ -1,0 +1,23 @@
+# Python virtual environments & packages
+.venv/
+.uv_cache/
+.uv_python/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Environment and IDE
+.env
+.vscode/
+.idea/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Test outputs
+*.log
