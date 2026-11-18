@@ -1,0 +1,5 @@
+City,Model,Order,Seasonal Order,MAE_Full,RMSE_Full,MAPE_Full (%),Bucket_Acc_Full (%),MAE_PreLockdown,RMSE_PreLockdown,MAPE_PreLockdown (%),Bucket_Acc_PreLockdown (%)
+Delhi,"SARIMA(1, 1, 2)","(1, 1, 2)","(0, 0, 0, 7)",28.09,36.81,17.35,67.76,39.49,47.41,19.63,59.52
+Bengaluru,"SARIMA(1, 1, 1)","(1, 1, 1)","(0, 0, 1, 7)",7.73,10.07,10.15,80.33,8.95,11.52,9.29,70.24
+Hyderabad,"SARIMA(0, 1, 3)","(0, 1, 3)","(0, 0, 0, 7)",11.24,14.49,15.97,81.42,14.38,17.3,16.52,80.95
+Mumbai,"SARIMA(3, 1, 1)","(3, 1, 1)","(0, 0, 0, 7)",14.87,23.05,14.28,78.69,23.6,32.22,17.65,78.57
