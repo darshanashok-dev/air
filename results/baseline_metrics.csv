@@ -1,0 +1,13 @@
+City,Model,MAE_Full,RMSE_Full,MAPE_Full (%),Bucket_Acc_Full (%),MAE_PreLockdown,RMSE_PreLockdown,MAPE_PreLockdown (%),Bucket_Acc_PreLockdown (%)
+Delhi,Naive (t-1),29.57,39.95,17.53,71.04,41.99,51.96,19.8,60.71
+Delhi,Seasonal Naive (t-7),50.65,68.02,32.65,54.1,67.37,84.62,32.43,44.05
+Delhi,7-Day Rolling Mean,36.88,50.17,23.27,64.48,50.72,63.67,25.06,51.19
+Bengaluru,Naive (t-1),7.78,10.45,9.87,83.06,9.35,12.3,9.7,72.62
+Bengaluru,Seasonal Naive (t-7),13.36,17.02,17.2,68.85,16.87,20.19,17.85,54.76
+Bengaluru,7-Day Rolling Mean,9.77,12.47,12.52,71.04,12.67,15.04,13.31,52.38
+Hyderabad,Naive (t-1),9.09,12.48,11.8,86.89,11.65,15.28,12.31,82.14
+Hyderabad,Seasonal Naive (t-7),23.69,31.27,31.58,56.83,32.05,39.44,35.52,45.24
+Hyderabad,7-Day Rolling Mean,15.71,21.28,20.87,67.76,21.08,27.24,23.53,60.71
+Mumbai,Naive (t-1),14.56,23.8,12.75,81.97,24.25,33.7,16.68,79.76
+Mumbai,Seasonal Naive (t-7),28.22,41.71,25.85,68.85,47.76,58.74,35.76,55.95
+Mumbai,7-Day Rolling Mean,20.59,30.6,18.81,71.04,35.98,43.81,27.29,61.9
