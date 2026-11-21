@@ -1,0 +1,5 @@
+City,Model,MAE_Full,RMSE_Full,MAPE_Full (%),Bucket_Acc_Full (%),MAE_PreLockdown,RMSE_PreLockdown,MAPE_PreLockdown (%),Bucket_Acc_PreLockdown (%),Best_Iteration
+Delhi,XGBoost (Multivariate Lags + Pollutants),26.58,35.41,17.5,72.68,35.2,44.01,18.02,66.67,259
+Bengaluru,XGBoost (Multivariate Lags + Pollutants),6.88,9.12,8.73,81.97,8.07,10.41,8.37,72.62,194
+Hyderabad,XGBoost (Multivariate Lags + Pollutants),10.66,13.06,16.18,81.97,12.56,15.03,14.75,83.33,294
+Mumbai,XGBoost (Multivariate Lags + Pollutants),21.57,28.94,23.3,74.86,28.34,37.13,18.18,65.48,119
