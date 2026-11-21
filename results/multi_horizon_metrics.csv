@@ -1,0 +1,49 @@
+City,Model,Horizon,Horizon_Days,MAE,RMSE,MAPE (%),Bucket_Acc (%)
+Delhi,Naive Persistence,t+1,1,29.57,39.95,17.53,71.04
+Delhi,Seasonal Naive (t-7),t+1,1,50.65,68.02,32.65,54.1
+Delhi,7-Day Rolling Mean,t+1,1,36.88,50.17,23.27,64.48
+Delhi,Direct XGBoost,t+1,1,27.51,36.27,18.21,69.4
+Delhi,Naive Persistence,t+3,3,50.15,67.98,31.04,53.01
+Delhi,Seasonal Naive (t-7),t+3,3,50.65,68.02,32.65,54.1
+Delhi,7-Day Rolling Mean,t+3,3,41.66,56.95,27.18,62.3
+Delhi,Direct XGBoost,t+3,3,60.87,73.89,46.59,50.82
+Delhi,Naive Persistence,t+7,7,50.65,68.02,32.65,54.1
+Delhi,Seasonal Naive (t-7),t+7,7,50.65,68.02,32.65,54.1
+Delhi,7-Day Rolling Mean,t+7,7,49.28,65.0,33.51,51.91
+Delhi,Direct XGBoost,t+7,7,91.6,104.88,74.56,20.77
+Bengaluru,Naive Persistence,t+1,1,7.78,10.45,9.87,83.06
+Bengaluru,Seasonal Naive (t-7),t+1,1,13.36,17.02,17.2,68.85
+Bengaluru,7-Day Rolling Mean,t+1,1,9.77,12.47,12.52,71.04
+Bengaluru,Direct XGBoost,t+1,1,7.51,9.51,9.46,82.51
+Bengaluru,Naive Persistence,t+3,3,12.55,16.17,15.83,68.85
+Bengaluru,Seasonal Naive (t-7),t+3,3,13.36,17.02,17.2,68.85
+Bengaluru,7-Day Rolling Mean,t+3,3,10.88,13.72,13.91,65.03
+Bengaluru,Direct XGBoost,t+3,3,11.26,14.9,14.56,71.04
+Bengaluru,Naive Persistence,t+7,7,13.36,17.02,17.2,68.85
+Bengaluru,Seasonal Naive (t-7),t+7,7,13.36,17.02,17.2,68.85
+Bengaluru,7-Day Rolling Mean,t+7,7,10.88,14.07,14.03,73.22
+Bengaluru,Direct XGBoost,t+7,7,12.72,15.94,16.76,68.31
+Hyderabad,Naive Persistence,t+1,1,9.09,12.48,11.8,86.89
+Hyderabad,Seasonal Naive (t-7),t+1,1,23.69,31.27,31.58,56.83
+Hyderabad,7-Day Rolling Mean,t+1,1,15.71,21.28,20.87,67.76
+Hyderabad,Direct XGBoost,t+1,1,10.22,12.18,14.95,86.34
+Hyderabad,Naive Persistence,t+3,3,18.52,24.82,24.08,68.31
+Hyderabad,Seasonal Naive (t-7),t+3,3,23.69,31.27,31.58,56.83
+Hyderabad,7-Day Rolling Mean,t+3,3,19.54,26.14,26.08,58.47
+Hyderabad,Direct XGBoost,t+3,3,22.15,30.69,30.98,63.93
+Hyderabad,Naive Persistence,t+7,7,23.69,31.27,31.58,56.83
+Hyderabad,Seasonal Naive (t-7),t+7,7,23.69,31.27,31.58,56.83
+Hyderabad,7-Day Rolling Mean,t+7,7,22.94,29.3,31.16,56.28
+Hyderabad,Direct XGBoost,t+7,7,27.29,35.18,39.52,53.01
+Mumbai,Naive Persistence,t+1,1,14.56,23.8,12.75,81.97
+Mumbai,Seasonal Naive (t-7),t+1,1,28.22,41.71,25.85,68.85
+Mumbai,7-Day Rolling Mean,t+1,1,20.59,30.6,18.81,71.04
+Mumbai,Direct XGBoost,t+1,1,18.12,27.82,18.21,77.05
+Mumbai,Naive Persistence,t+3,3,26.61,40.16,23.57,71.04
+Mumbai,Seasonal Naive (t-7),t+3,3,28.22,41.71,25.85,68.85
+Mumbai,7-Day Rolling Mean,t+3,3,23.25,33.99,21.69,71.58
+Mumbai,Direct XGBoost,t+3,3,34.94,50.98,29.24,55.74
+Mumbai,Naive Persistence,t+7,7,28.22,41.71,25.85,68.85
+Mumbai,Seasonal Naive (t-7),t+7,7,28.22,41.71,25.85,68.85
+Mumbai,7-Day Rolling Mean,t+7,7,25.47,35.45,25.04,69.4
+Mumbai,Direct XGBoost,t+7,7,28.72,41.94,25.29,73.77
