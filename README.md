@@ -33,6 +33,7 @@ Given historical daily air-quality measurements across Indian metropolitan cente
 ├── 03_prophet_xgboost.ipynb  # Notebook 03: Meta Prophet (with Diwali shock) & XGBoost (lag features)
 ├── 04_lstm.ipynb             # Notebook 04: PyTorch Deep Learning (Univariate & Multivariate LSTM)
 ├── 05_comparison.ipynb       # Notebook 05: Grand Leaderboard, Horizon Decay, Lockdown & Synthesis
+├── submission_kaggle.ipynb   # Complete monolithic, self-contained Kaggle submission notebook
 ├── eda_plots/                # 22 publication-grade figures (PNG, 200 DPI)
 ├── results/                  # Consolidated benchmark metric CSVs
 ├── requirements.txt          # Python dependencies
